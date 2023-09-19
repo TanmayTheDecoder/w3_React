@@ -1,0 +1,381 @@
+/* ============================mobiles==================== */
+@media  (300px <= width <= 599px) {
+    /* navbar */
+    .nav_logo {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    
+    .menu_logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu_logo img {
+        width: auto;
+        height: 90%;
+    }
+
+    .nav_droplist {
+        display: none;
+    }
+
+    .login_signup {
+        display: none;
+    }
+
+    /* navlist */
+    .nav_links {
+        display: none;
+    }
+
+    .nav_icons {
+        width: 40%;
+    }
+
+    .nav_list_inner .menu_logo {
+        justify-content: center;
+        font-size: 1.1rem;
+    }
+
+    /* main-container */
+
+    /* sidebar */
+
+    .mainContainer_inner {
+        position: relative;
+        display: unset;
+    }
+
+    .sidebar {
+        position: absolute;
+        width: 100%;
+        /* left : -100%; */
+    }
+
+    .sideBar_inner {
+        width: 100%!important;
+    }
+
+    .sideBar_title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .side_List_tutorials,.side_List_forms,.side_List_graphics,.side_List_media,.side_List_api {
+        align-items: center;
+    }
+
+    /* routing */
+    .routing {
+        width: 100%;
+    }
+
+    .title {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title.pl{
+        padding-left: .8em;
+    }
+
+    .navigators_inner a .navigator {
+        width: 20vw;
+    }
+
+    .try_it_title h1 {
+        font-size: 1.3rem!important;
+        padding-left: .5em!important;
+    }
+
+    .try_it_title p {
+        padding-left: .5em!important;
+    }
+
+    .intro_text p.pl {
+        padding-left: .5em;
+    }
+
+    .intro_text p {
+        font-size: .9em;
+    }
+
+    .intro_navigators {
+        padding-left: .5em;
+    }
+}
+
+/* ============================tablets==================== */
+@media (600px <= width <= 800px)  {
+    /* navbar */
+    .nav_dropdown {
+        width: 20%;
+        justify-content: flex-end;
+    }
+    
+    .nav_droplist {
+        display: none;
+    }
+
+    .nav_logo {
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .menu_logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu_logo img {
+        width: auto;
+        height: 90%;
+    }
+
+    .login_signup {
+        display: none;
+    }
+    
+    /* navlist */
+    .nav_links {
+        display: none;
+    }
+
+    .nav_icons {
+        width: 40%;
+    }
+
+    .nav_list_inner .menu_logo {
+        justify-content: center;
+        font-size: 1.1rem;
+    }
+    
+     /* main-container */
+
+     .sidebar {
+        width: 30%;
+     }
+
+     .sideBar_title.pl {
+        padding-left: .5em;
+     }  
+
+     .sideBar_title p {
+        font-size: 1.3rem;
+     }
+
+     .phorizontal {
+        padding-inline: unset!important;
+        padding-inline-start: .3em!important;
+     }
+
+     .sideBar_inner {
+        width: 29%!important;
+        display: none !important;
+     }
+
+     .routing {
+        width: 70%;
+     }
+
+     .phorizontal {
+        padding-inline: .8rem ;
+     }
+
+     .pl {
+        padding-left: 1.5rem
+     }
+
+     .try_it_title h1 { 
+        font-size: 1.5rem!important;
+     }
+
+     .try_it_title p { 
+        padding-left: 1.5em!important;
+     }
+
+     .navigators_inner a .navigator {
+        width: 15vw;
+     }
+
+     .menu {
+        width: 70%;
+     }
+
+     .mainContainer_inner .menu_logo {
+        display: none;
+    }
+
+    .menu_logo_cross {
+        display: none;
+    }
+}
+
+/* ============================small screens and laptops============================= */
+@media (801px <= width <= 1024px) {
+    /* navbar */
+    .navbar_inner {
+        width: 100%;
+    }
+
+    .nav_droplist {
+        display: none;
+    }
+
+    .nav_dropdown {
+        width: 20%;
+    }
+
+    .nav_logo {
+        width: 100%;
+    }
+
+    .menu_logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu_logo img {
+        width: auto;
+        height: 90%;
+        transform: translateX(4.5em);
+    }
+
+    .login_signup {
+        justify-content: space-around;
+    }
+
+    .bootcamp, .spaces {
+        display: none;
+    }
+
+    .buttons {
+        width: 70%;
+    }
+
+    .signup {
+        transform: unset;
+        padding: unset;
+    }
+
+    .login,.signup {
+        width: 45%;
+    }
+
+    /* navlist */
+    .nav_links {
+        display: none;
+    }
+
+    .nav_icons {
+        width: 40%;
+    }
+
+    .nav_list_inner .menu_logo {
+        justify-content: center;
+        font-size: 1.1rem;
+    }
+
+    /* main-container */
+
+    .sidebar {
+        width: 30%;
+    }
+
+    .sideBar_inner {
+        width: 29%!important;
+    }
+
+    .routing {
+        width: 70%;
+    }
+
+    .title.pl {
+        padding-left: .8em;
+    }
+
+    .navigators_inner a .navigator {
+        width: 15vw;
+    }
+
+    .try_it_title h1 {
+        font-size: 1.7em!important;
+    }
+
+    .try_it_title p {
+        padding-left: 1.7em!important;
+    }
+
+    .mainContainer_inner .menu_logo {
+        display: none;
+    }
+
+    .menu_logo_cross {
+        display: none;
+    }
+}
+/* ============================desktop and large screens================================ */
+@media (1025px <= width <= 1200px) {
+
+    .menu_logo {
+        display: none;
+    }
+
+    /* navbar */
+    .navbar_inner {
+        width: 98%;
+    }
+
+    .nav_dropdown {
+        width: 50%;
+    }
+
+    .login_signup {
+        width: 50%;
+    }
+
+    /* navlist */
+    .nav_icons {
+        display: none;
+    }
+
+    .nav_links {
+        width: 100%;
+    }
+
+    /* main-container */
+
+    .menu_logo_cross {
+        display: none;
+    }
+}
+
+/* ===========================extra large screens====================================== */
+@media (1201px <= width <= 4000px) {
+
+    .menu_logo_cross {
+        display: none;
+    }
+
+    .menu_logo {
+        display: none;
+    }
+
+    /* navbar */
+    .nav_dropdown {
+        width: 50%;
+    }
+
+    .login_signup {
+        width: 50%;
+    }
+    
+    /* navlist */
+    .nav_links {
+        width: 90%;
+    }
+}

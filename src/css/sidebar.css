@@ -1,0 +1,113 @@
+.sideBar_inner {
+    position: fixed;
+    width: 20%;
+    height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: var(--light-grey);
+}
+
+.menu_logo_inner button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 5vh;
+    font-size: 1.1rem;
+}
+
+.sideBar_title {
+    font-size: 1.3em;
+}
+
+.side_List_tutorials {
+    list-style-type: none;
+}
+
+.side_List_tutorials li {
+    padding: .3em 0;
+}
+
+.side_List_tutorials li a {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.side_List_forms {
+    list-style-type: none;
+}
+
+.side_List_forms li {
+    padding: .3em 0;
+}
+
+.side_List_forms li a {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.side_List_graphics {
+    list-style-type: none;
+}
+
+.side_List_graphics li {
+    padding: .3em 0;
+}
+
+.side_List_graphics li a {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.side_List_media {
+    list-style-type: none;
+}
+
+.side_List_media li {
+    padding: .3em 0;
+}
+
+.side_List_media li a {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.side_List_api {
+    list-style-type: none;
+}
+
+.side_List_api li {
+    padding: .3em 0;
+}
+
+.side_List_api li a {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.side_List_examples {
+    list-style-type: none;
+}
+
+.side_List_examples li {
+    padding: .3em 0;
+}
+
+.side_List_examples li a {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.side_List_references {
+    list-style-type: none;
+}
+
+.side_List_references li {
+    padding: .3em 0;
+}
+
+.side_List_references li a {
+    color: var(--black);
+    font-weight: 400;
+}

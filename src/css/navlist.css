@@ -1,0 +1,33 @@
+.nav_list_inner {
+    background-color: var(--deep-grey);
+}
+
+.nav_list {
+    list-style: none;
+}
+
+.nav_list a {
+    color: var(--white);
+    padding: .5em .5em;
+}
+
+.nav_list a:hover {
+    background-color: var(--black);
+}
+
+.nav_icons {
+    color: var(--white);
+}
+
+.icon_list {
+    list-style: none;
+}
+
+.icon_list li {
+    padding:.5em.5em;
+    cursor: pointer;
+}
+
+.icon_list li:hover {
+    background-color: var(--black);
+}

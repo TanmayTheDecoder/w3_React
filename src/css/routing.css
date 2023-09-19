@@ -1,0 +1,97 @@
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.navigator {
+    width: 10vw;
+    height: 7vh;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: var(--greyishblue);
+    color: var(--black);
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .2s linear;
+    border-radius: 10px;
+}
+
+.navigator:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.intro_navigator {
+    margin: .8em 0;
+    height: 6vh;
+    padding: 0em 1.5em;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.intro_text {
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: var(--greyishblue);
+    padding: 1.3rem 0rem;
+}
+
+.blue {
+    background-color: var(--secondary);
+}
+
+.blue:hover {
+    background-color: var(--primary);
+}
+
+.deep_grey {
+    background-color: var(--deep-grey);
+}
+
+.deep_grey:hover {
+    background-color: var(--black);
+}
+
+.horizontal_line {
+    padding: 2em 0;
+}
+
+.try_it_title h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.example_inner {
+    background-color: var(--light-grey);
+    border-radius: 10px;
+}
+
+.code_runner {
+    background-color: var(--white);
+    border-left: .2em solid var(--primary);
+}
+
+.code_runner p {
+    padding-left: 1em;
+}
+
+.example_button {
+    height: 6vh;
+    padding: 0em 1.5em;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 5px;  
+}

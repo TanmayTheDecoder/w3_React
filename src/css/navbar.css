@@ -1,0 +1,65 @@
+.navbar_container {
+    background-color: var(--white);
+}
+
+.menu_logo {
+    display: none;
+}
+
+.nav_logo img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar_list {
+    list-style: none;
+}
+
+.navbar_list a{
+    color: var(--deepgrey);
+    font-size: 1.1rem;
+}
+
+.login_signup {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.bootcamp img {
+    height: 50%;
+    width: auto;
+    filter: hue-rotate(290deg);
+}
+
+.spaces img {
+    height: 50%;
+    width: auto;
+    filter: hue-rotate(290deg);
+}
+
+.login,.signup {
+    border-radius: 30px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.login {
+    background-color: var(--secondary);
+    z-index: 1;
+}
+
+.login:hover {
+    background-color: var(--primary);
+}
+
+.signup {
+    background-color: var(--greyishblue);
+    transform: translateX(-30%);
+    padding-left: 1.2em;
+    color: var(--black);
+}
+
+.signup:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
